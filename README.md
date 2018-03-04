@@ -1,0 +1,2 @@
+# DormitorySystem
+本科毕业设计，一个基于Android的APP作为客户端，服务器端则是JavaWeb项目，它们之间通过JSON交互信息，有关于该项目的详细介绍信息请参考本库的README文件。
