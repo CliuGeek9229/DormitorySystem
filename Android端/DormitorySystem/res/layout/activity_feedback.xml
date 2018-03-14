@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000" >
+
+        <ImageView
+            android:id="@+id/BackToMain"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            
+            android:background="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="@string/feedback"
+            
+            
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp" 
+            />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDD">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         如果您对本系统有任何问题以及改进方法，可以在此处反馈给我们(反馈者信息默认为当前账号)。"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDD" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="反馈详情"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/M_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="反馈说明"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        ></LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DDD"
+        ></LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#DDD">
+        <Button 
+            android:layout_width="200dp"
+            android:layout_marginTop="150dp"
+            android:background="#EEE"
+            android:id="@+id/submit"
+            android:text="提交"
+            android:layout_height="30dp"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#DDD">
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

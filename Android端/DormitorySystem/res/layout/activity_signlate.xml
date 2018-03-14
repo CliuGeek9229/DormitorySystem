@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000" >
+
+        <ImageView
+            android:id="@+id/BackToMain"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            
+            android:background="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="晚归登记"
+            
+            
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp" 
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:background="#FFF" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:textSize="10sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000"
+                android:text="学生登记"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="13sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:text="请各位同学务必准时回宿舍！！"/>
+            
+            
+            
+        </LinearLayout>
+
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+            <Button 
+                android:id="@+id/signup"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="我晚归了"/>
+        
+    </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+    
+
+</LinearLayout>

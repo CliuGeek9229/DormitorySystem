@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000" >
+
+        <ImageView
+            android:id="@+id/BackToMain"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/callforFix"
+            android:textColor="#FFF"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#DDD"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="宿舍：默认账号所在宿舍" />
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        
+        android:background="#DDD"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报修详情" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/M_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="报修说明"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0F0"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#DDD">
+        <Button 
+            android:layout_width="200dp"
+            android:layout_marginTop="150dp"
+            android:background="#EEE"
+            android:id="@+id/submit"
+            android:text="提交"
+            android:layout_height="30dp"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDD"></LinearLayout>
+
+</LinearLayout>

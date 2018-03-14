@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000" >
+
+        <ImageView
+            android:id="@+id/BackToMain"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/signforLost"
+            android:textColor="#FFF"
+            android:textSize="23sp" />
+    </LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#DDD">
+        
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_marginBottom="15dp"
+	        android:orientation="vertical"
+	        android:background="#FFF">
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="5dp">
+	            
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            >
+	            <TextView 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="丢东西了？捡到东西了？"
+	                android:textColor="#BBB"/>
+	        </LinearLayout>
+	         <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            >
+	            <TextView 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="物品说明中，请注明联系方式，方便失主联系"
+	                android:textColor="#BBB"/>
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="15dp">
+	            
+	        </LinearLayout>
+	        <LinearLayout
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginBottom="5dp"
+        		android:orientation="vertical" >
+
+        		<EditText
+            		android:id="@+id/M_detail"
+            		android:layout_marginLeft="10dp"
+            		android:layout_marginRight="10dp"
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+           		 	android:ems="10"
+            		android:hint="丢失物品或捡到物品说明"
+            		android:inputType="textMultiLine"
+            		android:textSize="15sp" />
+    		</LinearLayout>
+
+	        
+    		
+    		<LinearLayout 
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:gravity="right"
+    		    android:layout_marginBottom="20dp"
+    		    android:layout_marginLeft="10dp"
+    		    android:layout_marginRight="10dp">
+    		    
+    		    <Button 
+    		        android:id="@+id/button1"
+    		        android:layout_width="100dp"
+    		        android:layout_height="30dp"
+    		        android:text="立即申请"
+    		        android:background="#DDD"/>
+    		    
+    		</LinearLayout>
+    		
+    		<LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            >
+	            <TextView 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="以下为当前物品丢失或检获信息"
+	                android:textColor="#BBB"/>
+	        </LinearLayout>
+    		
+    		<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/details_2222"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="textview" />
+
+        </LinearLayout>
+    </ScrollView>
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	    </LinearLayout>
+	    
+	    
+	    
+	    
+	    
+	</LinearLayout>
+    
+
+</LinearLayout>

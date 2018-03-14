@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">内蒙古大学宿舍管理</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bottom_tab_me">我</string>
+    <string name="bottom_tab_setting">设置</string>
+    <string name="bottom_tab_manage">管理</string>
+    
+	<string name="personal">个人信息</string>
+	
+	<string name="signforlate">晚归登记</string>
+	<string name="stayoutHis">夜不归宿历史记录</string>	
+	
+	<string name="MysignforLost">我的物品丢失申请记录</string>
+	
+	<string name="MycallforFix">我的报修记录</string>
+	<string name="MycallforExchange">我的宿舍申请调换记录</string>
+	<string name="Mycallforstayschool">我的留校申请记录</string>
+	
+	<string name="Announce">通告</string>
+	<string name="Tips">小贴士</string>
+	
+	<string name="OldforExchange">旧物交易</string>
+	
+	<string name="signforLost">失物招领</string>
+	<string name="callforFix">我要报修</string>
+	<string name="callforstayschool">留校申请</string>
+	<string name="callforExchange">申请宿舍调换</string>
+	
+	
+	<string name="aboutus">关于我们</string>
+	<string name="connectus">联系我们</string>
+	<string name="passwordModify">密码修改</string>
+	<string name="safeAgreement">安全协议</string>
+	<string name="feedback">意见反馈</string>
+	
+	<string name="modifyPersInfo">修改个人信息</string>
+	<string name="safeforall">安全承诺书</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="safeAgreementX">为了给住宿生创造良好的生活和学习环境，确保住宿生在学校安全，避免意外事故发生。根据《未成年保护法》、《预防未成年人犯罪法》以及教育部颁布的《学生伤害事故处理条例》，并结合学校实际，现由学校与住宿生及家长签订协议如下：\n
+一、学校尽可能提供完善住宿条件，加强住宿生内部管理，健全各种规章制度。对住宿生住校期间实施教育、管理和监督，保障住宿生在住校期间的合法权益。学校、家长应时刻重视对学生的安全教育，切实做到齐抓共管。\n
+二、学生应自觉服从学校的教育管理，遵循家长的教诲，自觉遵守学校《住宿生管理细则》和相关安全的管理规定。除节假日外，学校对住宿生实行全天24小时封闭式管理，住宿生在上学期间必须保证吃、住等活动须全部在校园内。若因事需要离开校园，必须履行请假手续。同时要关注自身与他人的安全，做到自爱、自律、自理、自强、自护。\n
+三、学生在校期间有下列违纪行为之一者，除学校根据情节轻重，分别给予当事人相应的处分外，学校有权取消该生的住宿资格，无条件搬出宿舍。如因违纪所造成的人身安全事故等一切不良后果，由学生本人和家长负全部责任。\n
+（1）不服从学校领导和宿管老师的管理，公然顶撞学校领导宿管老师者。\n
+（2）正常在校期间不履行请假手续，不请假外出或请假未经批准离开学校者。\n
+（3）在宿舍经常性不打扫卫生或经常性故意破坏卫生者。\n
+（4）乱插电源、乱接电线、使用电器，或带明火入宿舍者。\n
+（5）在校园盗窃财物或有意损坏财物、浪费水电资源者。\n
+（6）私通校外社会不良青年来校者。\n
+（7）乱吃零吃，未经批准不购买学校食堂全餐饭卡者。\n
+（8）携带危险物品（易燃、易爆物品、管制刀具、棍棒、雷管、鞭炮）等违禁物品进宿舍者。\n
+（9）在宿舍打牌下棋赌博、吸烟、酗酒、打架斗殴、敲诈勒索、倚强凌弱、拉帮结派者。\n
+（10）翻爬学校大门、围墙或擅自坐窗台、攀爬栏杆、下水道管、楼顶等危险境地者。\n
+（11）男女生非正常接触，男生进入女生生活区，女生进入男生生活区者。\n
+（12）随便串宿舍，在宿舍区大声喧哗、打闹影响他人，作息时间不按指定床位就寝或不归宿者。\n
+（13）多次晚自习迟到、早退、说话等违纪不听老师劝告或无故不上晚自习者。\n
+（14）其他重大的违纪现象。</string>
+	<string name="aboutusX">本系统会给学校的宿舍信息管理带来很大程度上的改观，由过去的人工方式转变为计算机方式，不仅可以解决工作效率低、易产生错误、数据存储量大等问题，还提高了可靠性，使宿舍管理更加科学化、正规化，使基层人员的工作量大大减轻。\n\n\n
+
+工作室名称：cliugeek工作室\n\n
+地址：内蒙古大学本区B2-604室\n\n
+
+
+
+如果您在过程中有任何疑问或者改进的建议，请通过以下方式联系我们:)\n\n
+
+QQ：630877594\n\n
+
+微信：FightForHonour\n\n
+
+邮箱：cliugeek@us-forever.com\n\n</string>
+	
+	<string name="safeAsignment">假期期间，我自愿留校住宿，为维护良好的住宿秩序和广大同学们的住宿安全，我承诺做到以下几点：\n
+\n
+1．留宿期间严格遵守学院学生管理相关规章管理制度，坚决服从公寓人员的管理，随身携带好学生证、楼宇出入证以配合公寓管理人员的检查。
+\n\n
+2．自觉遵守作息制度，晚间按时回宿舍休息。
+\n\n
+3．不留宿外来人员，不在宿舍内自炊，不点蜡烛。
+\n\n
+4．自觉遵守各项安全卫生管理制度及其它校规校纪，保持室内外卫生清洁，不使用任何违章电器等。
+\n\n
+5．离开学校，主动向管理人员说明情况并登记好离校时间。
+\n\n
+6．注意人身安全，不去危险偏僻的地方、不去游泳场及江河湖泊游泳。
+\n\n
+7．不参与非法社团组织，不参加未经批准的各类集会、游-行，言行文明。
+\n\n
+8、凡在假期留宿期间，在校内外发生的一切人身财产安全问题，均由我本人承担。</string>
+
+	<string name="tips">宿舍内不宜存放贵重物品和大量现金，个人物品请自行妥善保管，学校不承担财产保险责任。\n
+
+(1)大量现金及时存到银行，存折和储蓄卡妥善保管，密码最好不要与生日、电话卡及上网密码相同，身份证与存折分开存放。存折号码做好记录，以便挂失。\n
+
+(2)随身听、CD机、照相机、微机、贵重衣物等不用时及时锁好，妥善保管钥匙。\n
+
+(3)人离微机宿舍及时锁门，保管好钥匙，不随意借给他人使用。\n
+
+(4)不让不熟悉的人或刚认识的人随便进入，不在宿舍内留宿其他人员。\n
+
+(5)在宿舍内洗澡前先将衣服内的现金、储蓄卡、手表、手机和钥匙等放在安全的地方。\n
+
+(6)不在众人面前显示自己的贵重物品和大量现金，开启密码箱时注意回避。\n
+
+(7)遇到陌生人进寝室或旁边的寝室，请仔细询问，必要时送值班室。\n
+
+(8)寒暑假期间，请带走个人贵重物品。\n</string>
+
+	<string name="condition">
+	    留校条件：\n
+	  1.参加学校、系组织教学、比赛活动的同学\n
+	  2.家境贫困，家庭住址离学校比较远的同学\n
+	  3.准备参加研究生考试，需要留校的同学\n
+	</string>
+    
+</resources>

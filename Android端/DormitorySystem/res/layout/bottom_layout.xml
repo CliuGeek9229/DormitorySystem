@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical" >
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp" 
+        android:gravity="center_vertical"
+        android:background="#cccccc"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="聊天" 
+                android:textColor="#339900"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                 android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现" 
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                 android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录" 
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+
+        <ImageView
+            android:id="@+id/tabline"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tabline" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>

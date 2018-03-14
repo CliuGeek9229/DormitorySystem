@@ -1,0 +1,293 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000" >
+
+        <ImageView
+            android:id="@+id/BackToMain"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            
+            android:background="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="@string/personal"
+            
+            
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp" 
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="账号"
+            android:layout_marginLeft="8dp"
+            android:background="#FFF" 
+            android:gravity="center_vertical"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="111111111111111111111"
+            android:background="#FFF"
+            android:textSize="15sp" 
+            android:gravity="right"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="真实姓名"
+            android:background="#FFF"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/M_realname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.12"
+            android:text="2222" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="性别" 
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:background="#FFF"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3333" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#FFF"  >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="校区" 
+            android:gravity="center_vertical"
+            android:background="#FFF"
+            android:layout_marginLeft="8dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4444" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="专业" 
+            android:layout_marginLeft="8dp"
+            android:background="#FFF"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5555" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="学生公寓号" 
+            android:layout_marginLeft="8dp"
+            android:background="#FFF"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_buliding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6666" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp" 
+        android:background="#FFF" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="宿舍号" 
+            android:layout_marginLeft="8dp"
+            android:background="#FFF"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/M_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7777" 
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFF" >
+
+        <TextView
+            android:id="@+id/M_myActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@drawable/right"
+            android:text="修改个人信息                                                                                      "
+            android:background="#FFF"
+            android:layout_marginLeft="8dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Logout"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            
+            android:background="#FFF"
+            android:text="退出当期账号" 
+            android:textColor="#F00"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
